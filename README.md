@@ -1,4 +1,4 @@
-# Project_AirbnbRegression
+# Project_AirbnbRatingsPrediction
 Predict the ratings of Airbnb rooms with regression methods.   (Final project for 'Introduction To Business Analytics', BIZ3197-01)
 Data source: Airbnb datacenter 
 
