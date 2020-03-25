@@ -7,35 +7,41 @@ Data source: Airbnb datacenter
 
 ## 1. Data Preprocessing
 
-- 1\) Delete unnecessary variables
+- Delete unnecessary variables
 
-- 2\) Delete variables which have missing values more than 1/4
-
-- 3\) Convert data type
-
-- 4\) Choose categories for categorical data
-
-- 5\) Delete rows without decision variable
-
-- 6\) Fill in the missing values
-
-
-## 2. Regression Modeling
-
-- 1\) Multicollinearity check
-
-- 2\) VIF check
-
-- 3\) Drop high P-value variables
-
-- 4\) Data scaling
-
-
-## 3. Assumption checking
-
-- 1\) Heteroscedasticity
+- Handling missing data
+ - Drop the columns with 25% missing values
+ - Drop the rows with no target variables
+ - Fill up the missing values
+  - Categorical data: used mode
+  - Numerical data: used median
+  
+- Handling categorical data
+ - Convert data type
+ - Choose categories
+ - Create dummy variables
  
-- 2\) Normality of errors
+## 2. Model Preparing
+
+- Multicollinearity check
+
+- VIF check
+
+## 3. Model Training
+
+- OLS #1
+
+- Dropping columns
+ - With high P-values
+
+- OLS #2
+
+
+## 4. Assumption checking
+
+- Heteroscedasticity
  
-- 3\) Linearity
+- Normality of errors
+ 
+- Linearity
   
