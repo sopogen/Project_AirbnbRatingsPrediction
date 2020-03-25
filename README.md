@@ -10,16 +10,16 @@ Data source: Airbnb datacenter
 - Delete unnecessary variables
 
 - Handling missing data
- - Drop the columns with 25% missing values
- - Drop the rows with no target variables
- - Fill up the missing values
-  - Categorical data: used mode
-  - Numerical data: used median
+  - Drop the columns with 25% missing values
+  - Drop the rows with no target variables
+  - Fill up the missing values
+    - Categorical data: used mode
+    - Numerical data: used median
   
 - Handling categorical data
- - Convert data type
- - Choose categories
- - Create dummy variables
+  - Convert data type
+  - Choose categories
+  - Create dummy variables
  
 ## 2. Model Preparing
 
@@ -32,7 +32,7 @@ Data source: Airbnb datacenter
 - OLS #1
 
 - Dropping columns
- - With high P-values
+  - With high P-values
 
 - OLS #2
 
