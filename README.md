@@ -13,8 +13,8 @@ Data source: Airbnb datacenter
   - Drop the columns with 25% missing values
   - Drop the rows with no target variables
   - Fill up the missing values
-    - Categorical data: used mode
-    - Numerical data: used median
+    - Categorical data: use mode
+    - Numerical data: use median
   
 - Handling categorical data
   - Convert data type
