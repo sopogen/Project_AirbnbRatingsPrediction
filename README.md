@@ -1,9 +1,12 @@
 # Project_AirbnbRatingsPrediction
-Predict the ratings of Airbnb rooms with regression methods.
-
-(Final project for 'Introduction To Business Analytics', BIZ3197-01)
-
-Data source: Airbnb datacenter 
+<p align='center'>
+<img src='https://i.imgur.com/cqdVyfs.jpg'>
+<br />Predict the ratings of Airbnb rooms with regression methods.
+<br />(Final project for 'Introduction To Business Analytics', BIZ3197-01)
+</p>
+<p align='right'>
+<br />*Data source: Airbnb datacenter
+</p>
 
 ## 1. Data Preprocessing
 
