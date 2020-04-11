@@ -32,13 +32,10 @@
 
 ## 3. Model Training
 
-- OLS #1
+- Linear Regession
 
 - Dropping columns
   - With high P-values
-
-- OLS #2
-
 
 ## 4. Assumption checking
 
