@@ -32,7 +32,7 @@
 
 ## 3. Model Training
 
-- Linear Regession
+- Simple Linear Regession
 
 - Dropping columns
   - With high P-values
